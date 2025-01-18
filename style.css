@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(image/camera-1130731_1920.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+
+}
+.logo a{
+    color:white ;
+    padding: 0px 10px;
+    border: 3px solid white;
+    border-top: none;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: black 
+}
+.logo span{
+    color: aliceblue;
+    font-weight: bold ;
+    font-size: 2rem;
+}
+ ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px ;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    margin: 5px
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+.title{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titre h1{
+    color:#fff;
+    font-size: 70px;
+}
+.bouton{
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bouton a{
+    color:#111010;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.btn{
+    transition: 00.4s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
