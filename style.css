@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(image/camera-1130731_1920.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(camera-1130731_1920.jpg);
     height: 100vh;
     background-size: cover;
     background-position:center ;
